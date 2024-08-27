@@ -1,0 +1,47 @@
+#logo{width: auto;height: 60px;margin-top: 10px;}
+#logoo{margin-left: 50px;}
+body{background-color: #F0F0F0;}
+h3{margin-left: 10px; font-size: x-large;font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;font-weight: 450;letter-spacing:2px ;}
+#container,#stars,#flex,header, header div{display: flex;}
+header div{width: 30%;}
+header div:nth-child(3) a{
+    text-decoration: none;
+    margin-right: 5%;
+    margin-top: 30px;
+    color:#212121 ;
+    font-family:Arial, Helvetica, sans-serif ;  
+}
+hr{border: gainsboro 1px solid;}
+#container{
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 100px;
+}
+#container >div{width: 400px;}
+#container div h1{width: 290px;font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;font-weight: 500;}
+#container div p{width: 270px;font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-weight: 400;}
+#container div button{
+    background-color: #FF5F49;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;font-weight: 500;
+    width: 180px;height: 40px;
+    border-radius: 50px;
+    margin-right: 35px;
+    border: 0px;
+}
+#stars{margin-left: 20%;}
+#stars div:nth-child(2) h5{
+    font-family: 'Courier New', Courier, monospace;
+}
+header div:nth-child(3) a:hover{
+    text-decoration: underline;
+}
+@media (max-width:900px) {
+    #vid{display: none;}
+
+    header div{width: 20%;}
+
+}
+
+
+
+
+
